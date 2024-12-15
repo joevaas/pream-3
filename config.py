@@ -16,7 +16,7 @@ DB_NAME = os.environ.get("DB_NAME", "Pream3")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002304552449"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002012842756"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1560")) # auto delete in seconds
